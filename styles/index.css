@@ -1,0 +1,88 @@
+* {
+    font-size: 25px;
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+    outline: 0;
+}
+*::selection {
+    color: #ffffff;
+    background-color: #000;
+}
+
+body {
+    background-color: #870401;
+    font-family: 'Lobster', cursive;
+}
+
+a {
+    color: #070606;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.nombre {
+    background-color: #7C0300;
+    text-align: center;
+    font-size: 70px;
+    padding: 20px 0;
+    outline: 3px solid #070606;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion {
+    text-align: center;
+    padding: 90px 0;
+    position: relative;
+}
+
+.content-arts {
+    padding: 10px;
+}
+
+.art1 {
+    background-color: #9e0a08;
+    display: inline-block;
+    border-radius: 10px 50px;
+    padding: 0 15px;
+    border: 10px 25px;
+    width: 330px;
+    height: 510px;
+}
+
+.items-img {
+    width: 320px;
+    height: 420px;
+    border-radius: 20px;
+    object-fit: fill;
+}
+
+.full a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #b1100a;
+    text-align: center;
+    padding: 5px 0px;
+    outline: 1px solid #070606;
+}
+
+.redes {
+    padding: 0px 50px;
+}
