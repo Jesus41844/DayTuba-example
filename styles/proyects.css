@@ -1,0 +1,31 @@
+.content-arts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.art {
+    background-color: #ffffff10;
+    border-radius: 10px 50px 10px 10px;
+    margin: 5px 6px;
+    padding: 5px 6px;
+    width: 320px;
+    height: 510px;
+    outline: 1px solid #000;
+}
+
+.art_text {
+    text-align: center;
+}
+
+.artTextSubtext {
+    font-size: 0.8em;
+}
+
+.items-img {
+    width: 320px;
+    height: 420px;
+    border-radius: 20px;
+    object-fit: fill;}

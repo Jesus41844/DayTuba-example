@@ -1,17 +1,12 @@
 * {
     font-size: 25px;
-    padding: 0px;
-    border: 0px;
+    padding: 0;
     margin: 0;
     outline: 0;
 }
-*::selection {
-    color: #ffffff;
-    background-color: #000;
-}
 
 body {
-    background-color: #870401;
+    background-color: #053D64;
     font-family: 'Lobster', cursive;
 }
 
@@ -22,6 +17,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    background-color: #ffffff46;
 }
 
 p {
@@ -33,9 +29,9 @@ p {
 }
 
 .nombre {
-    background-color: #7C0300;
+    background-color: #ffffff1a;
     text-align: center;
-    font-size: 70px;
+    font-size: 4em;
     padding: 20px 0;
     outline: 3px solid #070606;
 }
@@ -47,22 +43,56 @@ p {
 
 .presentacion {
     text-align: center;
-    padding: 90px 0;
+    padding: 15px 0;
     position: relative;
 }
 
 .content-arts {
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
+    text-align: center;
+    justify-content: center;
 }
 
-.art1 {
-    background-color: #9e0a08;
-    display: inline-block;
-    border-radius: 10px 50px;
-    padding: 0 15px;
-    border: 10px 25px;
-    width: 330px;
+.art {
+    background-color: #ffffff10;
+    border-radius: 10px 50px 0px 0px;
+    margin: 5px 6px;
+    padding: 5px 6px;
+    width: 320px;
     height: 510px;
+    outline: 1px solid #000;
+}
+
+.art_text {
+    text-align: center;
+}
+
+.artTextSubtext {
+    font-size: 0.8em;
+}
+
+.link {
+    background-color: #3bc2eb23;
+    outline: 1px solid #000;
+    text-align: center;
+}
+
+.link_awp {
+    padding: 0 112px;
+}
+
+.link_ah {
+    padding: 0 108px;
+}
+
+.link_ayt {
+    padding: 0 128px;
+}
+
+.link_ads {
+    padding: 0 123px;
 }
 
 .items-img {
@@ -72,16 +102,38 @@ p {
     object-fit: fill;
 }
 
+.ds-img {
+    width: 320px;
+    height: 220px;
+    padding: 100px 0;
+    object-fit: fill;
+}
+
+.boton:hover{
+    background-color: #ffffff46;
+}
+
+.imgPb {
+    width: 100%;
+    height: 24em;
+}
+
 .full a {
     text-decoration: none;
 }
 
 .footer {
-    background-color: #b1100a;
+    background-color: #0099ff2f;
     text-align: center;
     padding: 5px 0px;
     outline: 1px solid #070606;
 }
+
+.redes:hover{
+    text-decoration: underline;
+    background-color: #fdfdfd46;
+}
+
 
 .redes {
     padding: 0px 50px;
